@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+.screen {
+  display: flex;
+  height: 60vw;
+}
+.leftside {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftside img {
+  max-width: 500px;
+  height: auto;
+}
+.rightside {
+  width: 400px;
+  background-color: #ddd;
+}

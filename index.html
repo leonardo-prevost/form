@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <title>Form</title>
 </head>
+
 <body>
+    <div class="screen">
+        <div class="leftside">
+            <img src="images/financial_data.png" alt="imagem ilustrativa" />
+        </div>
+        <div class="rightside">
+            <h1>Crie uma conta</h1>
+
+            <form method="POST">
+                <label for="">
+                    Seu nome:<br />
+                    <input type="text" name="name" />
+                </label>
+                <label for="">
+                    Seu e-mail: <br />
+                    <input type="text" name="email" />
+                </label>
+                <label for="">
+                    Sua senha: <br />
+                    <input type="password" name="password" />
+                </label>
+                <label for="">
+                    <input type="submit" value='Cadastrar' />
+                </label>
+            </form>
+
+            <div class="">
+                Já tem uma conta? <a href="">Faça o login</a>
+            </div>
+        </div>
+    </div>
+
+
     <script src='script.js'></script>
 </body>
+
 </html>
