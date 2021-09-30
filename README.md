@@ -8,3 +8,5 @@ A simple form with custom conditional validation in front-end.
 
 ##Rules
 ![rules](https://user-images.githubusercontent.com/46681477/135530841-c78fd9f1-3e18-40c8-b665-617abeff81f3.png)
+
+✔HTLM5 ✔CSS3 ✔JAVASCRIPT
